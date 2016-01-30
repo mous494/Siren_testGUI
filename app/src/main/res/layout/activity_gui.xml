@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1f1f1f"
+    android:gravity="center">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center"
+        android:layout_weight="154">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView1"
+            android:layout_column="0"
+            android:src="@drawable/red1"
+            android:clickable="true"
+            android:layout_weight="129"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView2"
+            android:src="@drawable/onech"
+            android:layout_column="1"
+            android:clickable="true"
+            android:layout_weight="129"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView3"
+            android:src="@drawable/twosec"
+            android:layout_column="2"
+            android:clickable="true"
+            android:layout_weight="129"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView4"
+            android:src="@drawable/foursec"
+            android:layout_column="3"
+            android:clickable="true"
+            android:layout_weight="129"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView5"
+            android:src="@drawable/manual"
+            android:layout_column="4"
+            android:clickable="true"
+            android:layout_weight="115"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top|center"
+        android:layout_weight="127">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView6"
+            android:src="@drawable/red2"
+            android:layout_column="0"
+            android:clickable="true"
+            android:layout_weight="129"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView7"
+            android:src="@drawable/blank"
+            android:layout_column="1"
+            android:clickable="true"
+            android:layout_weight="129"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView8"
+            android:src="@drawable/blank"
+            android:layout_column="2"
+            android:clickable="true"
+            android:layout_weight="129"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView9"
+            android:src="@drawable/blank"
+            android:layout_column="3"
+            android:adjustViewBounds="false"
+            android:clickable="true"
+            android:layout_weight="129"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView10"
+            android:src="@drawable/stop"
+            android:scaleType="fitCenter"
+            android:layout_column="4"
+            android:clickable="true"
+            android:layout_weight="115" />
+    </LinearLayout>
+
+</LinearLayout>
